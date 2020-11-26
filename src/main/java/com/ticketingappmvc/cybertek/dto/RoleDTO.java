@@ -1,4 +1,4 @@
-package com.cybertek.dto;
+package com.ticketingappmvc.cybertek.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

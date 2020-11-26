@@ -1,7 +1,7 @@
-package com.cybertek.implementation;
+package com.ticketingappmvc.cybertek.implementation;
 
-import com.cybertek.dto.UserDTO;
-import com.cybertek.service.UserService;
+import com.ticketingappmvc.cybertek.dto.UserDTO;
+import com.ticketingappmvc.cybertek.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,6 +17,11 @@ public class UserServiceImpl extends AbstractMapService<UserDTO,String> implemen
     @Override
     public UserDTO save(UserDTO object) {
         return super.save(object.getUserName(),object);
+    }
+
+    @Override
+    public void update(UserDTO object) {
+        super.update(object.getUserName(),object);
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.cybertek.enums;
+package com.ticketingappmvc.cybertek.enums;
 
 public enum Gender {
 

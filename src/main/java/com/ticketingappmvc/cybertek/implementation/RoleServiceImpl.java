@@ -1,8 +1,7 @@
-package com.cybertek.implementation;
+package com.ticketingappmvc.cybertek.implementation;
 
-import com.cybertek.dto.RoleDTO;
-import com.cybertek.dto.UserDTO;
-import com.cybertek.service.RoleService;
+import com.ticketingappmvc.cybertek.dto.RoleDTO;
+import com.ticketingappmvc.cybertek.service.RoleService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,6 +17,11 @@ public class RoleServiceImpl extends AbstractMapService<RoleDTO,Long> implements
     @Override
     public RoleDTO save(RoleDTO object) {
         return super.save(object.getId(),object);
+    }
+
+    @Override
+    public void update(RoleDTO object) {
+        super.update(object.getId(),object);
     }
 
     @Override

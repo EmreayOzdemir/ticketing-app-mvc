@@ -1,6 +1,6 @@
-package com.cybertek.entity;
+package com.ticketingappmvc.cybertek.entity;
 
-import com.cybertek.enums.Gender;
+import com.ticketingappmvc.cybertek.enums.Gender;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
